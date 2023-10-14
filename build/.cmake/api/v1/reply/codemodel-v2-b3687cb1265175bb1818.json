@@ -1,0 +1,319 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/device",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.device-Release-f8262b1775ccdbfe3030.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/device"
+				},
+				{
+					"build" : "src/device/camera",
+					"jsonFile" : "directory-src.device.camera-Release-e733ce79cf07b840c571.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "src/device/camera",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/device/computer",
+					"jsonFile" : "directory-src.device.computer-Release-ed9f4368823eb118176f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "src/device/computer",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/device/sets",
+					"jsonFile" : "directory-src.device.sets-Release-7e4627f29de4d79d1ead.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "src/device/sets",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/study",
+					"childIndexes" : 
+					[
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.study-Release-14dde23c0cfc1522f88c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/study"
+				},
+				{
+					"build" : "src/study/course",
+					"jsonFile" : "directory-src.study.course-Release-9526b847d19cac2269f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 4,
+					"source" : "src/study/course",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/study/self_learn",
+					"jsonFile" : "directory-src.study.self_learn-Release-f7a3c6c1b750d2e051dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "src/study/self_learn",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/apps/classroom",
+					"jsonFile" : "directory-src.apps.classroom-Release-c9e4b37eb6b270ce8a2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "src/apps/classroom",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						6
+					],
+					"name" : "classroom_management"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "computer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "sets",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "course",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "self_learn",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "exe_classroom",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "camera::@6c51c7537a3f6d2783c4",
+					"jsonFile" : "target-camera-Release-3638468b7084e70baff7.json",
+					"name" : "camera",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "computer::@68507e6efcb973f07a80",
+					"jsonFile" : "target-computer-Release-66da84a95e573969e76e.json",
+					"name" : "computer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "course::@ebe50856958fb7587905",
+					"jsonFile" : "target-course-Release-a3e4d3b823bde24ae5b9.json",
+					"name" : "course",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "exe_classroom::@8793ea073a20d203300d",
+					"jsonFile" : "target-exe_classroom-Release-f3c0c2202c2b1683fdcb.json",
+					"name" : "exe_classroom",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "self_learn::@4ac325094480f49f35f3",
+					"jsonFile" : "target-self_learn-Release-f4c30f9635089471b290.json",
+					"name" : "self_learn",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sets::@fd00b11ac4aee73b26d0",
+					"jsonFile" : "target-sets-Release-c531f7af53884edb57b3.json",
+					"name" : "sets",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tan/learn-cmake/\u9752\u5c9b\u5927\u5b66\u6559\u5ba4\u7ba1\u7406\u7cfb\u7edf/build",
+		"source" : "/home/tan/learn-cmake/\u9752\u5c9b\u5927\u5b66\u6559\u5ba4\u7ba1\u7406\u7cfb\u7edf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

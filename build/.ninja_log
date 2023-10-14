@@ -1,0 +1,13 @@
+# ninja log v5
+0	258	1697293885153594266	src/apps/classroom/CMakeFiles/exe_classroom.dir/main.cpp.o	70c37cfe50edc0dd
+0	696	1697293885589598117	src/device/computer/CMakeFiles/computer.dir/computer.cpp.o	8e9e38ca55f1ea15
+0	696	1697293885589598117	src/device/sets/CMakeFiles/sets.dir/sets.cpp.o	2bcec70469675de1
+696	702	1697293885597598187	src/device/computer/libcomputer.a	411a86e5765280ef
+697	702	1697293885597598187	src/device/sets/libsets.a	311f7c5cafecf2d4
+0	719	1697293885613598329	src/study/self_learn/CMakeFiles/self_learn.dir/self_learn.cpp.o	e93b0bd0a4b046bf
+0	1668	1697293886561606695	src/device/camera/CMakeFiles/camera.dir/camera.cpp.o	af10119c3e8464f5
+1668	1673	1697293886569606765	src/device/camera/libcamera.a	e5a5c08e4db0c335
+1673	1678	1697293886573606801	src/study/self_learn/libself_learn.a	297f69c07aeb34e6
+0	2824	1697293887717616885	src/study/course/CMakeFiles/course.dir/course.cpp.o	b21e93707f2e49ba
+2824	2834	1697293887729616990	src/study/course/libcourse.a	c2d3914943f27e84
+2834	2994	1697293887885618364	src/apps/classroom/exe_classroom	f92de71566c65db0
