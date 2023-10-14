@@ -3,6 +3,11 @@
 ---
 这是一个基于project_B来学cmake的一个案例，当然希望未来有一天真的能实现
 
+## 注意！
++ 请确保您的ubuntu中有opencv-c++
++ 如果您的ubuntu中没有spdlog.h，您可以通过在终端中输入命令`sudo apt-get install libspdlog-dev`来完成
++ 在build之前，请先把文件中原有的build文件夹删除后，再build
+
 ## 思路
 
 1.首先应从设计device开始
